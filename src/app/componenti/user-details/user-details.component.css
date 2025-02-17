@@ -1,0 +1,117 @@
+.user-details-container {
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.card-content {
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+  padding-top: 40px;
+}
+
+mat-card {
+  width: 350px;
+  height: 350px;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+mat-card-header {
+  display: flex;
+  text-align: center;
+  margin: 10px;
+}
+
+.status-container {
+  position: relative;
+}
+
+
+.cerchio2 {
+  position: absolute;
+  bottom: 5px;
+  left: 90px;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 50px;
+  background-color: blue;
+}
+
+.Online {
+  background-color: green;
+}
+
+.Offline {
+  background-color: red;
+}
+
+.undo-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 45px;
+  margin: 15px;
+  font-weight: bold;
+  background-color: rgb(7, 7, 168);
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.container-user-post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  padding: 10px;
+}
+
+.no-post {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 850px) {
+  .user-details-container {
+    height: 100%;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: initial;
+    align-items: center;
+  }
+
+  .card-content {
+    position: relative;
+    padding: 0;
+  }
+
+  mat-card {
+    width: 300px;
+    height: 300px;
+  }
+
+  .container-user-post {
+    justify-content: end;
+    width: 100%;
+  }
+
+  .container-component {
+    width: 100%;
+  }
+  
+}

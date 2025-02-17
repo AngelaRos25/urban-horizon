@@ -1,0 +1,31 @@
+.post-card {
+  background-color: rgb(181, 200, 200);
+  width: 80%;
+  margin: 20px;
+  padding: 10px;
+}
+
+.post-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-card mat-card-title {
+  font-weight: bold;
+}
+
+.post-card-footer {
+  padding: 10px;
+}
+
+@media only screen and (max-width: 850px) {
+  .post-container {
+    margin: 10px;
+  }
+
+  .post-card {
+    width: 100%;
+    margin: 10px;
+  }
+}

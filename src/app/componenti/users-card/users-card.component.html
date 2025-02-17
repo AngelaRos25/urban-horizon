@@ -1,0 +1,56 @@
+<div class="user-container">
+  <div class="search-container">
+    <div class="searchbar">
+      <form action="">
+        <input [(ngModel)]="searchValue" name="search" type="search" placeholder="Search">
+
+        <button class="search-button" type="submit">
+          <mat-icon>
+            <span class="material-symbols-outlined">
+              search
+            </span>
+          </mat-icon>
+        </button>
+      </form>
+    </div>
+
+    <button class="add-user" (click)="openDialog()">
+      <mat-icon>add</mat-icon>
+      Add User
+    </button>
+  </div>
+
+  <div class="card-box">
+    <div *ngFor="let user of users| filter:searchValue">
+      <mat-card *ngIf="searchName === '' || user.name.toLowerCase().includes(searchName)">
+        <button class="delete" (click)="deleteUser(user.id)">
+          <mat-icon>delete</mat-icon>
+        </button>
+        <div class="user-details">
+          <div class="status-container">
+            <img class="user-img" [src]="user.gender === 'male' ? photomale : photofemale" alt="">
+            <div class="cerchio" [ngStyle]="{background: user.status === 'active' ? 'green' : 'red'}">
+            </div>
+          </div>
+          <mat-card-content>
+            <mat-card-title>{{user.name | truncate: 20 }}</mat-card-title>
+            <mat-card-subtitle>{{user.email | truncate: 20 }}</mat-card-subtitle>
+          </mat-card-content>
+
+          <button (click)="btnClick(user.id)" type="button" class="open">
+            <mat-icon>
+              <span class="material-symbols-outlined">
+                person
+              </span>
+            </mat-icon>
+          </button>
+        </div>
+      </mat-card>
+    </div>
+  </div>
+
+  <mat-paginator [length]="100" [pageSize]="pageSize" [pageIndex]="pageIndex" [pageSizeOptions]="[5, 10, 25]"
+    (page)="handlePageEvent($event)" aria-label="Select page">
+  </mat-paginator>
+
+</div>

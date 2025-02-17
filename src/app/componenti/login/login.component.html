@@ -1,0 +1,30 @@
+<div class="container-login">
+  <h1>Urban Horizon</h1>
+  <form #loginForm="ngForm" (ngSubmit)="onLogin(loginForm)" class="container">
+    <h2>Login</h2>
+
+    <mat-form-field>
+      <mat-label>Name</mat-label>
+      <input matInput name="name" ngModel required>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Email</mat-label>
+      <input matInput name="email" type="email" ngModel required>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Token</mat-label>
+      <input matInput id="token" type="text" [(ngModel)]="token" name="token" required />
+    </mat-form-field>
+
+    <div class="token-link">
+      <p>To get your access token you must first authenticate on the GoRest platform <a
+          href="https://gorest.co.in/my-account/access-tokens" target="_blank">LINK.</a></p>
+      <div class="button-container">
+        <button class="button-login" type="submit">Login</button>
+      </div>
+    </div>
+
+  </form>
+</div>

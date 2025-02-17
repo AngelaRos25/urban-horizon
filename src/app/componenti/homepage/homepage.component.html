@@ -1,0 +1,19 @@
+<mat-list role="list">
+  <img [src]="logoPath" alt="">
+
+  <div class="navlist">
+    <mat-list-item role="listitem">
+      <a routerLink="usersCard">HOME</a>
+    </mat-list-item>
+    <mat-list-item role="listitem">
+      <a routerLink="postPage">POST</a>
+    </mat-list-item>
+  </div>
+
+  <mat-icon>
+    <span (click)="logout()" class="material-symbols-outlined">
+      logout
+    </span>
+  </mat-icon>
+</mat-list>
+<router-outlet></router-outlet>

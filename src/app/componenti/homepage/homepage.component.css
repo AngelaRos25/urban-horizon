@@ -1,0 +1,48 @@
+mat-list {
+  background-color: rgba(100, 140, 141, 0.479);
+  width: 100%;
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+}
+
+img {
+  width: 90px;
+  height: 75px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.navlist {
+  display: flex;
+  align-items: end;
+}
+
+mat-list-item {
+  width: 100px;
+}
+
+mat-list-item a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+mat-icon {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.material-symbols-outlined {
+  font-weight: bold;
+  color: black;
+}
+
+.material-icons {
+  margin-bottom: 15px;
+  font-size: 25px;
+}
