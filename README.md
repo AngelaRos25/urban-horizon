@@ -1,6 +1,6 @@
 # UrbanHorizon
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.7.
+<img src="src/assets/image/sfondo.png" width="600" heigth="300" >
 
 ## Development server
 
