@@ -78,7 +78,7 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
    ```bash
    npm serve
    ```
-Navigate to http://localhost:4200/
+Navigate to http://localhost:4200/ . The application will automatically reload if you change any of the source files.
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
