@@ -54,6 +54,26 @@ ng e2e
 
 Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
+
+## Getting Started 
+### installation: 
+1. Clone repository:
+   ```bash
+   git clone https://github.com/Giangy25/urban-horizon
+   ```
+2. Navigate to the project directory and open in VSCode:
+   ```bash
+   cd repository-name
+   code //open repository in vscode
+   ```
+3.Install dependencies: 
+  ```bash
+   npm install
+  ```
+4.start development server: 
+  ```bash
+   npm serve //navigate to http://localhost:4200/
+  ```
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
