@@ -1,6 +1,6 @@
 # UrbanHorizon
 
-<img src="src/assets/image/sfondo.png" width="300" heigth="300" >
+<img src="src/assets/image/sfondo.png" width="400" heigth="300" >
 
 ## Development server
 
