@@ -58,19 +58,23 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Getting Started 
 ### installation: 
 1. Clone repository:
+   
    ```bash
    git clone https://github.com/Giangy25/urban-horizon
    ```
 2. Navigate to the project directory and open in VSCode:
+   
    ```bash
    cd repository-name
    code 
    ```
 3. Install dependencies:
+   
    ```bash
    npm install
    ```
 4. Start development server:
+   
    ```bash
    npm serve
    ```
