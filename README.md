@@ -51,7 +51,7 @@ For end-to-end (e2e) testing, run: `ng e2e`.
 Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
 ## :globe_with_meridians: External Services
-- [GoRest.co.in]([https://gorest.co.in/])
+- [GoRest.co.in](https://gorest.co.in/)
 
 ##  Try It!
 You can try it here: [Urban Horizon](https://urban-horizon.netlify.app)
