@@ -4,24 +4,6 @@
 
 
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
 
 ## Getting Started 
 ### Installation: 
@@ -58,4 +40,21 @@ To generate a different type of file, you can also use: `ng generate directives|
 
 To buid the project, run: `ng build`.
 This will compile your project and store the build artifacts in the dist/ directory. By default, the production build optimizes your application for performance and speed.
+
+### Running unit tests
+
+To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, run: `ng test`.
+
+### Running end-to-end tests
+
+For end-to-end (e2e) testing, run: `ng e2e`.
+Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+
+##  Try It!
+You can try it here: [Urban Horizon](https://urban-horizon.netlify.app)
+
+## Contact
+ [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/angiirosi/)
+ [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/angela-rosace-744925291/)
+ [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Giangy25?tab=repositories)
 
