@@ -4,7 +4,7 @@
 
 ## About the Project
 This application is based on APIs provided by GraphGL and REST API. It allows you to manage users and view or edit their posts.
-this application is developed using Angular Framework. Before the authentication, you have to click link and login in GoRest application because you have to copy token  
+this application is developed using Angular Framework. Before the authentication, you have to click link and login in GoRest application to copy the token  
 
 
 ## Getting Started 
