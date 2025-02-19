@@ -66,14 +66,14 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
    cd repository-name
    code 
    ```
-3.Install dependencies: 
-  ```bash
+3. Install dependencies:
+   ```bash
    npm install
-  ```
-4.start development server: 
-  ```bash
+   ```
+4. Start development server:
+   ```bash
    npm serve
-  ```
+   ```
 Navigate to http://localhost:4200/
 ## Additional Resources
 
