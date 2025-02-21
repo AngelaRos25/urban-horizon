@@ -6,11 +6,9 @@
 This application is developed using Angular Framework, and is based on the APIs provided by GraphGL and REST API. 
 It will be free, People will be able to login and share their ideas and reports via posts, to contribute above all to:
 
-  -Protect and safeguard the city's cultural heritage;
-  
-  -Protect and safeguard the city's natural heritage;
-  
-  -Support positive social and environmental connections between urban areas.
+  - Protect and safeguard the city's cultural heritage;
+  - Protect and safeguard the city's natural heritage;
+  - Support positive social and environmental connections between urban areas.
 
 
 ## Project specification 
