@@ -13,7 +13,7 @@ It will be free, People will be able to login and share their ideas and reports 
 
 ## Project specification 
 This application allows you to manage users and view or edit their posts.
-Before the authentication, you have to click link and login in GoRest application to copy the token. After having authenticated, you have Home section where you can see the list of users, with the possibility of searching user. It must be possible to create or delete a user.
+Before the authentication, you have to click link and login in GoRest application to copy the token. After having authenticated, you have Home section where you can see the list of users, with the possibility of searching user. It possible to create or delete a user.
 
 In this section you can also open a user's profile, where you can see their details, view their posts and then add comments.
 
