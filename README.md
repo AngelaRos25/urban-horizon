@@ -3,8 +3,15 @@
 <img src="src/assets/image/sfondo.png" width="400" heigth="300" >
 
 ## About the Project
-This application is developed using Angular Framework, and is based on the APIs provided by GraphGL and REST API. It allows you to manage users and view or edit their posts.
+This application is developed using Angular Framework, and is based on the APIs provided by GraphGL and REST API. 
+It will be free, People will be able to login and share their ideas and reports via posts, to contribute above all to:
+  -Protect and safeguard the city's cultural heritage
+  -Protect and safeguard the city's natural heritage
+  -Support positive social and environmental connections between urban areas.
 
+
+## Project specification 
+It allows you to manage users and view or edit their posts.
 Before the authentication, you have to click link and login in GoRest application to copy the token. After having authenticated, you have Home section where you can see the list of users, with the possibility of searching user. It must be possible to create or delete a user.
 
 In this section you can also open a user's profile, where you can see their details, view their posts and then add comments.
